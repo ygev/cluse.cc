@@ -1,0 +1,170 @@
+/* GLOBAL */
+html {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* NAVIGATION */
+
+  .mobile {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  .mobile div {
+    display: none;
+  }
+  .mobile button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 0;
+    text-indent: 200%;
+    overflow: hidden;
+    background: url("/img/burger.png") center no-repeat;
+    border-radius: 3px;
+    background-size: 80%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    transition: all 400ms ease;
+  }
+  .mobile button.expanded {
+    transform: rotate(90deg);
+    background-color: transparent;
+    border: 0;
+  }
+  .mobile a {
+    display: block;
+  }
+  a {
+    background: #262626;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+  }
+  a:hover,
+  a:active,
+  a:focus {
+    background: #e7e7e7;
+  }
+  .desktop {
+    display: block;
+    overflow: hidden;
+  }
+  .desktop a {
+    width: 25%;
+    float: left;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  .desktop a:last-child {
+    border-right: none;
+  }
+  article {
+    padding: 0 30px 15px;
+  }
+  @media (max-width: 800px) {
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
+  }
+  
+
+  /* HERO */
+
+  .hero {
+    background-color: #0A7FFF;
+    height: 85vh;
+    border-radius: 0 0 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logopack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+  }
+
+  .logotype {
+  opacity: 0.9;
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.4pt;
+  }
+
+  .lead {
+    font-family: FiraSans-ExtraBold;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 52px;
+    margin-top: 100px;
+  }
+
+  .leadline {
+    font-family: FiraSans-Regular;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top: 15px;
+  }
+
+  .underbtn {
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top: 20px;
+  }
+
+  .mac-logo {
+    font-family: LucidaGrande;
+  }
+
+  /* buttons */
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+
+ .btn-dl {
+  background: #FAAF40;
+  box-shadow: 0 5px 10px 0 rgba(250,174,64,0.5);
+  border: 0;
+  border-radius: 27.5px;
+  font-family: FiraSans-Medium;
+  font-size: 21px;
+  color: #262626;
+  letter-spacing: 0;
+  text-align: center;
+  width: 240px;
+  height: 55px;
+ }
+
+ .btn-git {
+  background: url("/img/github.png") center no-repeat;
+  border: 0;
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  border-radius: 27.5px;
+  margin-left: 20px;
+ }
