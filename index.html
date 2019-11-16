@@ -31,19 +31,42 @@
         </div>
       </nav>
   <header class="hero">
-
       <article>
-       
-        <h1 class="lead">Design Inclusively</h1>
-        <p class="leadline">Cluse is the most comprehensive color contrast plugin for Sketch that ensures your products are WCAG 2.0 accessible. Free of charge.</p>
-     <div class="btn-wrapper"> 
-       <button class="btn-dl">Download Cluse</button>
-      <button class="btn-git" aria-label="github button"></button>
-    </div>
-      <p class="underbtn"><span class="mac-logo">  </span>macOS 10.11 or above • Sketch 40 or above required
-      </p>
+          <h1 class="lead">Design Inclusively</h1>
+          <p class="leadline">Cluse is the most comprehensive color contrast plugin for Sketch that ensures your products are WCAG 2.0 accessible. Free of charge.</p>
+      <div class="btn-wrapper"> 
+        <button class="btn-dl">Download Cluse</button>
+        <button class="btn-git" aria-label="github button"></button>
+      </div>
+        <p class="underbtn"><span class="mac-logo">  </span>macOS 10.11 or above • Sketch 40 or above required
+        </p>
       </article>
+      <aside>
+        <section class="rater-wrapper">
+        <h2 class="rating">AA</h2>
+        <img src="img/check.svg" alt="" class="pass">
+      </section>
+      <form id ="contrastForm" class="color-settings">
+          <fieldset class=" col-left color-background">
+            <div class="input-wrapper">
+              <input id="bHex" maxlength="7" class="color-input" type="text" name="head"
+            value="#006CF4">
+            </div>
+            <div class="color-slider">
+                <input id="bLightness" class="slider-input hex-value" type="range" min="0" value="50" max="100" step="1">
+                </div>
+          </fieldset>
+          <fieldset class="col-right color-foreground">
+            <div class="input-wrapper">
+              <input id="fHex" maxlength="7" required class="color-input" value="#FFFFFF" type="text" name="head">
+              </div>
+              <div class="color-slider">
+                  <input id="fLightness" class="slider-input hex-value" type="range" min="0" value="50" max="100" step="1">
+                  </div>
+          </fieldset>
+        </form>
 
+      </aside>
     </header> 
       
    
