@@ -6,14 +6,6 @@ html {
 
 /* NAVIGATION */
 
-.nav-wrapper {
-  width: 100%;
-  position: fixed;
-  padding-bottom: 80px;
-  background-color: #0A7FFF;
-  z-index: 100;
-  border-radius: 0 0 0 100px;
-}
 
   .mobile {
     display: none;
@@ -535,6 +527,16 @@ footer {
   }
  }
   @media (min-width: 820px) {
+
+
+    .nav-wrapper {
+      width: 100%;
+      position: fixed;
+      padding-bottom: 80px;
+      background-color: #0A7FFF;
+      z-index: 100;
+      border-radius: 0 0 0 100px;
+    }
 
 .logopack {
   padding-left: 10vw;

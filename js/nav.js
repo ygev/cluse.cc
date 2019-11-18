@@ -3,5 +3,5 @@ $('button').click(function() {
     $(this).toggleClass('expanded').siblings('div').slideToggle();
   });
 
-
+// Scroll Down: Hide Header, Scroll Up: Show Header
   
