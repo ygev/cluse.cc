@@ -11,7 +11,7 @@
     <title>Cluse — Sketch Plugin</title>
 </head>
 <body>
-  <div class="nav-down nav-wrapper">
+  <div id="ui" class="nav-down nav-wrapper">
     <nav class="desktop">
       
       <a href="#section1">Features</a>
@@ -33,7 +33,7 @@
           <a href="#">Documentation</a>
         </div>
       </nav>
-  <header class="hero">
+  <header id="big" class="hero">
       <article>
           <h1 class="lead">Sketch Inclusively</h1>
           <p class="leadline">Cluse is the most comprehensive color contrast plugin for Sketch that ensures your products are WCAG 2.0 accessible. Free of charge.</p>
@@ -46,8 +46,8 @@
       </article>
       <aside class="rater">
         <section class="rater-wrapper">
-        <h2 class="rating">AA</h2>
-        <img src="img/check.svg" alt="" class="pass">
+        <h2 id="#WCAG" class="rating">AA</h2>
+        <img id="#imgPass" src="img/check.svg" alt="" class="pass">
       </section>
       <form autocomplete="off" id ="contrastForm" class="color-settings">
           <fieldset class="col-left color-background">
@@ -168,5 +168,11 @@
   crossorigin="anonymous"></script>
   <script src="js/autoscroll.js"></script>
   <script src="js/contrast.js"></script>
+  <script>
+		function initialize() {
+			b = '#0A7FFF', f = '#FFFFFF';
+			update();
+		}
+	</script>
   <script src="js/nav.js"></script>
 </html>
