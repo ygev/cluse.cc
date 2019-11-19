@@ -535,8 +535,16 @@ footer {
       padding-bottom: 80px;
       background-color: #0A7FFF;
       z-index: 100;
+      top: 0;
       border-radius: 0 0 0 100px;
+      transition: top 0.2s ease-in-out;
     }
+
+    .nav-up {
+      top: -90px;
+      transition: top 0.2s ease-in-out;
+  }
+  
 
 .logopack {
   padding-left: 10vw;
