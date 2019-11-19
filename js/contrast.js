@@ -97,12 +97,16 @@ function checkContrast() {
 	$('#ratio').html('<b>' + Dec2((ratio * 100) / 100) + '</b>:1');
     //$('#ratio').html('<b>' + (Math.round(ratio * 100) / 100).toFixed(2) + '</b>:1');
     console.log(ratio)
+
 	if (ratio >= 4.5) {
         $('#WCAG').text('AAA');
         $('#imgPass').attr("src","img/check.svg")
+        console.log("large AA pass")
 	} else {
+        console.log("large AA pass")
         $('#WCAG').attr('class', 'fail').text(':(');
         $('#imgPass').attr("src","img/xmark.svg")
+        console.log("large AA fail")
 	}
 	if (ratio >= 3) {
         $('#WCAG').attr('class', 'pass').text('AAA');
