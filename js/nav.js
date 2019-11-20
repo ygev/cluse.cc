@@ -44,3 +44,5 @@ function hasScrolled() {
     lastScrollTop = st;
 }
   
+
+// BUTTON EFFECTS
