@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/button.css">
     <link rel="shortcut icon" href="img/favicon.png" />
     <title>Cluse — Sketch Plugin</title>
 </head>
@@ -14,10 +15,10 @@
   <div id="ui" class="nav-down nav-wrapper">
     <nav class="desktop">
       
-      <a href="#section1">Features</a>
-      <a href="#section2">Mission</a>
-      <a href="#section3">Support</a>
-      <a href="#">Documentation</a>
+      <a class="nav-item" href="#section1">Features</a>
+      <a class="nav-item" href="#section2">Mission</a>
+      <a class="nav-item" href="#section3">Support</a>
+      <a class="nav-item" href="#">Documentation</a>
     </nav>
     <div class="logopack">
           <img src="img/logo.svg" alt="" class="logo">
@@ -38,7 +39,19 @@
           <h1 id="lead" class="lead">Sketch Inclusively</h1>
           <p id="leadline" class="leadline">Cluse is the most comprehensive color contrast plugin for Sketch that ensures your products are WCAG 2.0 accessible. Free of charge.</p>
           <div class="btn-wrapper"> 
-            <button class="btn-dl">Download Cluse</button>
+           
+            <a href="" class="button btn-dl">
+              <ul>
+                  <li>&#68;ownload Cluse</li>
+                  <li>&#68;ownloading Cluse</li>
+                  <li>Cluse Downloaded</li>
+              </ul>
+              <div>
+                  <svg viewBox="0 0 24 24"></svg>
+              </div>
+          </a>
+
+
             <button class="btn-git" aria-label="github button"></button>
           </div>
         <p id="underbtn" class="underbtn"><span class="mac-logo">  </span>macOS 10.11 or above • Sketch 40 or above required
@@ -168,6 +181,7 @@
 			b = '#0A7FFF', f = '#FFFFFF';
 			update();
 		}
-	</script>
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js"></script>
   <script src="js/nav.js"></script>
 </html>

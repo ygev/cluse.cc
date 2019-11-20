@@ -4,6 +4,10 @@ html {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* NAVIGATION */
 
   .mobile {
@@ -43,7 +47,7 @@ html {
     box-shadow: 0 20px 20px 0 rgba(0,0,0,0.4);
     transition: 1s ease-in-out;
   }
-  a {
+  a.nav-item {
     /* background: #262626; */
     text-align: center;
     padding: 23.25px 0;
@@ -52,7 +56,7 @@ html {
     font-weight: bold;
     transition: .1s ease-in-out;
   }
-  a:hover
+  a.nav-item:hover
  
   {
     border-bottom: 4px solid #FAAF40;
@@ -72,7 +76,6 @@ html {
   .desktop a {
     box-sizing: border-box;
     margin-left: 30px;
-    opacity: 0.9;
     font-family: FiraSans-SemiBold;
     font-size: 16px;
     color: #FFFFFF;
@@ -156,7 +159,7 @@ html {
   margin-top: 30px;
 }
 
- .btn-dl {
+ /* .btn-dl {
   background: #FAAF40;
   box-shadow: 0 5px 10px 0 rgba(250,174,64,0.5);
   border: 0;
@@ -168,56 +171,10 @@ html {
   text-align: center;
   width: 240px;
   height: 55px;
-  box-shadow:         inset 0 -4px 0 #C87D0E;
   transition: .3s ease-in-out;
- }
+ } */
 
- .btn-dl:after {
-  content: '  💙';
-  color: black;
-  position: absolute;
-  font-size: 0;  
-  /* top: 14px; */
-  right: 610px;
-  transition: 0.5s;
-}
-
-.btn-dl:hover{
-  padding-right: 24px;
-  padding-left:8px;
-  transition: 0.5s;
-  /* box-shadow: 0 4px 0px 0 rgba(250,174,64,0.5); */
-}
-
-.btn-dl:active{
-  padding-right: 24px;
-  padding-left:8px;
-  /* transition: 0.2s; */
-  transform: translateY(2px);
-  box-shadow:         inset 0 -2px 0 #C87D0E;
-  outline: none;
-}
-
-.btn-dl:focus {
-  outline: none;
-}
-
-.btn-dl:hover:after {
-  font-size: 15px;
-  right: 620px;
-}
-
- .btn-git {
-  background: url("/img/github.png") center no-repeat;
-  border: 0;
-  width: 55px;
-  height: 55px;
-  background-color: white;
-  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-  border-radius: 27.5px;
-  margin-left: 20px;
- }
-
+ 
 
 /* HERO: RATER */
 
