@@ -59,8 +59,7 @@ function update() {
 	$('#fHex, #fPick').val(f);
 	$('#bHex, #bPick').val(b);
 	$('#normal, #big, #ui').css({'color': f, 'background-color': b});
-	$('#uibox').css({'border-color': f});
-	$('#layer1 path').css({'fill': f});
+    $('#lead, #leadline, #underbtn').css({'color': f});
 	$('.permalink').attr('href', './?fcolor=' + f.substr(1) + '&bcolor=' + b.substr(1));
 	$('a[href*="linkcontrastchecker"]').attr('href', '/resources/linkcontrastchecker/?fcolor=' + f.substr(1) + '&bcolor=' + b.substr(1));
 	$('.apilink').attr('href', './?fcolor=' + f.substr(1) + '&bcolor=' + b.substr(1) + '&api');
@@ -98,30 +97,17 @@ function checkContrast() {
     //$('#ratio').html('<b>' + (Math.round(ratio * 100) / 100).toFixed(2) + '</b>:1');
     console.log(ratio)
 
-	if (ratio >= 4.5) {
+	if (ratio >= 3) {
+        $('#WCAG').text('AA');
+        $('#imgPass').attr("src","img/check.svg")
+	} else {
+        $('#WCAG').text(':(');
+        $('#imgPass').attr("src","img/xmark.svg")
+    }
+	if (ratio >= 7) {
         $('#WCAG').text('AAA');
         $('#imgPass').attr("src","img/check.svg")
-        console.log("large AA pass")
-	} else {
-        console.log("large AA pass")
-        $('#WCAG').attr('class', 'fail').text(':(');
-        $('#imgPass').attr("src","img/xmark.svg")
-        console.log("large AA fail")
-	}
-	if (ratio >= 3) {
-        $('#WCAG').attr('class', 'pass').text('AAA');
-        $('#imgPass').attr("src","img/check.svg")
-	} else {
-        $('#WCAG').attr('class', 'fail').text(':(');
-        $('#imgPass').attr("src","img/xmark.svg")
-	}
-	if (ratio >= 7) {
-        $('#WCAG').attr('class', 'pass').text('AAA');
-        $('#imgPass').attr("src","img/check.svg")
-	} else {
-        $('#WCAG').attr('class', 'fail').text(':(');
-        $('#imgPass').attr("src","img/xmark.svg")
-	}
+	} 
 }
 
 function getRGB(c) {

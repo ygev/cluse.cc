@@ -35,38 +35,30 @@
       </nav>
   <header id="big" class="hero">
       <article>
-          <h1 class="lead">Sketch Inclusively</h1>
-          <p class="leadline">Cluse is the most comprehensive color contrast plugin for Sketch that ensures your products are WCAG 2.0 accessible. Free of charge.</p>
+          <h1 id="lead" class="lead">Sketch Inclusively</h1>
+          <p id="leadline" class="leadline">Cluse is the most comprehensive color contrast plugin for Sketch that ensures your products are WCAG 2.0 accessible. Free of charge.</p>
           <div class="btn-wrapper"> 
             <button class="btn-dl">Download Cluse</button>
             <button class="btn-git" aria-label="github button"></button>
           </div>
-        <p class="underbtn"><span class="mac-logo">  </span>macOS 10.11 or above • Sketch 40 or above required
+        <p id="underbtn" class="underbtn"><span class="mac-logo">  </span>macOS 10.11 or above • Sketch 40 or above required
         </p>
       </article>
       <aside class="rater">
         <section class="rater-wrapper">
-        <h2 id="#WCAG" class="rating">AA</h2>
-        <img id="#imgPass" src="img/check.svg" alt="">
+        <h2 id="WCAG" class="rating">AA</h2>
+        <img id="imgPass" src="img/check.svg" alt="">
       </section>
       <form autocomplete="off" id ="contrastForm" class="color-settings">
-          <fieldset class="col-left color-background">
+          <div class="color-background">
+            <div class="color-slider">
+                <input id="bLightness" class="slider-input hex-value" type="range" min="5" value="50" max="95" step="1">
+            </div>
             <div class="input-wrapper">
               <input id="bHex" maxlength="7" class="color-input" type="text" name="head"
             value="#006CF4">
             </div>
-            <div class="color-slider">
-                <input id="bLightness" class="slider-input hex-value" type="range" min="0" value="50" max="100" step="1">
-                </div>
-          </fieldset>
-          <fieldset class="col-right color-foreground">
-            <div class="input-wrapper">
-              <input id="fHex" maxlength="7" required class="color-input" value="#FFFFFF" type="text" name="head">
-              </div>
-              <div class="color-slider">
-                  <input id="fLightness" class="slider-input slider-black hex-value" type="range" min="0" value="100" max="100" step="1">
-                  </div>
-          </fieldset>
+          </div>
         </form>
       <div class="dot-rating">
         <img src="img/dot-w.svg" alt="" class="dot">
