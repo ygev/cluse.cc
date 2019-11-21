@@ -103,7 +103,7 @@ body {
   }
   .desktop {
     top: 13px;
-    right: 10vw;
+    right: 12vw;
     position: absolute;
     display: flex;
     overflow: hidden;
@@ -634,12 +634,12 @@ footer {
 }
 
 .logopack {
-  padding-left: 10vw;
+  padding-left: 12vw;
 }
 
 .hero {
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 12vw;
+  padding-right: 12vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
