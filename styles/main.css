@@ -8,13 +8,21 @@ a {
   text-decoration: none;
 }
 
+body {
+  opacity: 1;
+  transition: 0.7s opacity;
+}
 
+body.fade {
+    opacity: 0;
+    transition: none;
+}
 
 /* NAVIGATION */
 
   .mobile {
     display: none;
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 75px;
   }
@@ -42,10 +50,12 @@ a {
     border: 0;
   }
   .mobile a {
-    font-size: 32px;
+    font-size: 24px;
     display: block;
     background-color: #0A7FFF;
-    border-bottom: 1px white solid;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 1px #fff solid;
     box-shadow: 0 20px 20px 0 rgba(0,0,0,0.4);
     transition: 1s ease-in-out;
   }
@@ -203,7 +213,8 @@ aside {
 
 .rating {
   -webkit-text-stroke: 3px white;
-  font-family: FiraSans-Black;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900;
   font-size: 180px;
   color: rgba(0,122,255,0.00);
   letter-spacing: 20px;
@@ -321,8 +332,8 @@ input[type='range']::webkit-slider-thumb:hover {
 
 .shoo {
   z-index: -10;
-  left:29.25%;
-  top:85vh;
+  /* left:29.25%;
+  top:85vh; */
 }
 
 .dot-white {
@@ -333,7 +344,8 @@ input[type='range']::webkit-slider-thumb:hover {
   display: flex;
   position: absolute;
   z-index: -10;
-  top: -9.5vh;
+  top: -10vh;
+  left: -31.5vh;
 }
 
 #imgPass {
@@ -544,6 +556,10 @@ footer {
 
   .dd4 {
     display: none;
+  }
+
+  .dot-blue {
+    left: -15vh;
   }
 
   .mobile {
