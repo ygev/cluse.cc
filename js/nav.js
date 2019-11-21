@@ -129,10 +129,3 @@ function getPath(update, smoothing, pointsNew) {
         d = points.reduce((acc, point, i, a) => i === 0 ? `M ${point[0]},${point[1]}` : `${acc} ${getPoint(point, i, a, smoothing)}`, '');
     return `<path d="${d}" />`;
 }
-
-// FADE IN PAGE
-
-// document.addEventListener("DOMContentLoaded", function(e) {
-//     document.body.classList.remove('fade');
-//   });
-
