@@ -130,4 +130,8 @@ function getPath(update, smoothing, pointsNew) {
     return `<path d="${d}" />`;
 }
 
-  
+// FADE IN PAGE
+
+document.addEventListener("DOMContentLoaded", function(e) {
+    document.body.classList.remove('fade');
+  });

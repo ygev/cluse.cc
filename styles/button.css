@@ -1,11 +1,17 @@
 
   .button {
-    --background: #fff;
+    --background: #faaf40;
+    --rectangle: #ee9d25;
+    --success: rgb(255, 198, 113);
+    --text: #232323;
+    --arrow: #232323;
+    --checkmark: #232323;
+    /* --background: #fff;
     --rectangle: #FAAF40;
     --success: #47CF73;
     --text: #232323;
     --arrow: #232323;
-    --checkmark: #232323;
+    --checkmark: #232323; */
     --shadow: rgba(10, 22, 50, .24);
     display: flex;
     overflow: hidden;

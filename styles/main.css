@@ -8,6 +8,8 @@ a {
   text-decoration: none;
 }
 
+
+
 /* NAVIGATION */
 
   .mobile {
@@ -76,7 +78,8 @@ a {
   .desktop a {
     box-sizing: border-box;
     margin-left: 30px;
-    font-family: FiraSans-SemiBold;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -122,7 +125,8 @@ a {
   }
 
 .lead {
-  font-family: FiraSans-ExtraBold;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
   font-size: 48px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -132,7 +136,8 @@ a {
 }
 
 .leadline {
-  font-family: FiraSans-Regular;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #FFFFFF;
@@ -225,7 +230,8 @@ aside {
   padding-bottom: 6px;
   opacity: 0.95;
 	/* Input Font */
-	font-family: SFUIDisplay-Medium;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
 	font-size: 16px;
 	color: #fff;
 	text-transform: uppercase;
@@ -347,14 +353,16 @@ input[type='range']::webkit-slider-thumb:hover {
 }
 
 .head {
-  font-family: FiraSans-Bold;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
   font-size: 24px;
   color: #262626;
   letter-spacing: 0;
 }
 
 .subhead {
-  font-family: FiraSans-Medium;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   color: #797979;
   letter-spacing: 0;
@@ -376,7 +384,8 @@ input[type='range']::webkit-slider-thumb:hover {
 }
 
 .flag {
-  font-family: FiraSans-SemiBold;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
   font-size: 17px;
   color: #0A7FFF;
   letter-spacing: 0;
@@ -384,7 +393,8 @@ input[type='range']::webkit-slider-thumb:hover {
 }
 
 .txt-flag {
-  font-family: FiraSans-Regular;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   color: #262626;
   letter-spacing: 0;
@@ -420,7 +430,8 @@ input[type='range']::webkit-slider-thumb:hover {
 }
 
 .link {
-  font-family: FiraSans-Medium;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   color: #262626;
   letter-spacing: 0;
@@ -489,7 +500,8 @@ footer {
 
 .footer-copyright {
   opacity: 0.75;
-  font-family: FiraSans-SemiBold;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -499,7 +511,8 @@ footer {
 
 .footer-link {
   opacity: 0.9;
-  font-family: FiraSans-SemiBold;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -594,7 +607,6 @@ footer {
 }
 
 .head {
-  font-family: FiraSans-Bold;
   font-size: 38px;
   color: #262626;
   letter-spacing: 0;
@@ -602,7 +614,6 @@ footer {
 }
 
 .subhead {
-  font-family: FiraSans-Medium;
   font-size: 24px;
   color: #797979;
   letter-spacing: 0;
@@ -613,7 +624,6 @@ footer {
 
   .flag {
     text-align: left;
-    font-family: FiraSans-SemiBold;
     font-size: 24px;
     color: #0A7FFF;
     letter-spacing: 0;
@@ -621,7 +631,6 @@ footer {
 
   .txt-flag {
     text-align: left;
-    font-family: FiraSans-Regular;
     font-size: 24px;
     color: #262626;
     letter-spacing: 0;
@@ -738,8 +747,4 @@ display: none;
   
 
 }
-
-
-
-/* BUTTON EFFECTS */
 
