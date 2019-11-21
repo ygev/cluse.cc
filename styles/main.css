@@ -201,11 +201,12 @@ body {
 }
 
  .btn-git {
-  background: url(../img/github.png) center no-repeat;
+  background: url(../img/github.svg) center no-repeat;
   border: 0;
   width: 55px;
   height: 55px;
   background-color: #fff;
+  background-size: 32px 302x;
   box-shadow: 0 4px 8px -1px var(--shadow);
   transition: .2s ease-in-out;
   border-radius: 27.5px;
