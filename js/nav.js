@@ -74,6 +74,7 @@ $('.button').each(function(e) {
 
     btn.on('click', e => {
 
+        window.location.href = "https://github.com/ygev/cluse/archive/master.zip";
         if(!btn.hasClass('loading')) {
 
             btn.addClass('loading');
