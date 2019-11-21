@@ -1,8 +1,10 @@
 /* GLOBAL */
 
-/* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript, 
-if it's not present, don't show loader */
+@font-face {
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  src: url("/fonts/l_10646.woff") format("woff");
+}
+
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
@@ -42,6 +44,7 @@ body.fade {
     position: absolute;
     width: 100%;
     top: 75px;
+    z-index: 4;
   }
   .mobile div {
     display: none;
@@ -180,7 +183,7 @@ body.fade {
   }
 
   .mac-logo {
-    font-family: LucidaGrande;
+    font-family: "Lucida Grande";
   }
 
   /* buttons */
@@ -238,6 +241,7 @@ aside {
   text-align: right;
   /* margin-bottom:20px; */
   position: absolute;
+  transition: .4s ease-in-out;
 }
 
 
