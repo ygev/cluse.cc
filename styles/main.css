@@ -200,22 +200,16 @@ body {
   margin-top: 30px;
 }
 
- /* .btn-dl {
-  background: #FAAF40;
-  box-shadow: 0 5px 10px 0 rgba(250,174,64,0.5);
+ .btn-git {
+  background: url(/img/github.png) center no-repeat;
   border: 0;
-  border-radius: 27.5px;
-  font-family: FiraSans-Medium;
-  font-size: 21px;
-  color: #262626;
-  letter-spacing: 0;
-  text-align: center;
-  width: 240px;
+  width: 55px;
   height: 55px;
-  transition: .3s ease-in-out;
- } */
-
- 
+  background-color: #fff;
+  box-shadow: 0 4px 8px -1px var(--shadow);
+  transition: .2s ease-in-out;
+  border-radius: 27.5px;
+  margin-left: 20px;
 
 /* HERO: RATER */
 
