@@ -211,7 +211,7 @@ body {
   border-radius: 27.5px;
   margin-left: 20px;
  }
- 
+
 /* HERO: RATER */
 
 aside {
@@ -413,7 +413,7 @@ input[type='range']::webkit-slider-thumb:hover {
 }
 
 .u-margin-top-100 {
-  margin-top: 100px;
+  margin-top: 100px; 
 }
 
 .flag {
