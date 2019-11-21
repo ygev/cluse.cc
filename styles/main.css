@@ -470,6 +470,22 @@ input[type='range']::webkit-slider-thumb:hover {
   letter-spacing: 0;
 }
 
+
+.link-arrow {
+  transition: .1s ease-in-out;
+}
+
+.link:hover {
+  transition: .1s ease-in-out;
+  border-bottom: 4px #0A7FFF solid;
+}
+
+.link:hover .link-arrow {
+  padding-left: 15px;
+  transition: .1s ease-in-out;
+}
+
+
 .txt-mission {
   display: flex;
   flex-direction: column;
@@ -479,7 +495,6 @@ input[type='range']::webkit-slider-thumb:hover {
 
 .link-wrapper {
   padding-bottom: 10px;
-  border-bottom: 4px #0A7FFF solid;
 }
 
 .u-blue {
@@ -551,8 +566,14 @@ footer {
   letter-spacing: 0;
   text-align: center;
   line-height: 32px;
-  text-decoration: underline;
-  /* margin-top: 30px; */
+  text-decoration: none;
+  /* transition: 1s ease-in-out; */
+  padding-bottom: 5px;
+}
+
+.footer-link:hover {
+  border-bottom: 2px #0A7FFF solid;
+  /* transition: 1s ease-in-out; */
 }
 
 .createdby-desktop {
