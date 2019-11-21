@@ -32,10 +32,16 @@ body {
   transition: 0.7s opacity;
 }
 
-body.fade {
-    opacity: 0;
-    transition: none;
+::selection {
+  color: white;
+  background-color: #0A7FFF;
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background-color: #0A7FFF;
+}
+
 
 /* NAVIGATION */
 
@@ -128,7 +134,7 @@ body.fade {
 
   .hero {
     background-color: #0A7FFF;
-    height: 85vh;
+    height: 75vh;
     border-radius: 0 0 0 100px;
     display: flex;
     flex-direction: column;
@@ -346,7 +352,7 @@ input[type='range']::webkit-slider-thumb:hover {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 80vh;
+  top: 70vh;
   left: 50%;
   transform: translate(-50%, 0%);
 }
@@ -364,7 +370,7 @@ input[type='range']::webkit-slider-thumb:hover {
 .dot-blue {
   display: flex;
   position: absolute;
-  z-index: -10;
+  z-index: 100;
   top: -10vh;
   left: -31.5vh;
 }
@@ -411,8 +417,8 @@ input[type='range']::webkit-slider-thumb:hover {
   align-items: center;
 }
 
-.u-margin-top-150 {
-  margin-top: 150px;
+.u-margin-top-100 {
+  margin-top: 100px;
 }
 
 .flag {
@@ -445,7 +451,6 @@ input[type='range']::webkit-slider-thumb:hover {
 
 /* MISSION */
 .mission {
-  margin-top: 40px;
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
@@ -467,7 +472,7 @@ input[type='range']::webkit-slider-thumb:hover {
   font-size: 16px;
   color: #262626;
   letter-spacing: 0;
-  transition: .1s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .link-wrapper {
@@ -476,25 +481,14 @@ input[type='range']::webkit-slider-thumb:hover {
 
 
 .link-arrow {
-  transition: .1s ease-in-out;
+  transition: .3s ease-in-out;
   font-weight: 900;
 }
 
-.link:hover {
-  transition: .1s ease-in-out;
-  width: 100%; 
-  left: 0; 
-}
-
-.link:after {
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-  
-}
 
 .link:hover .link-arrow {
   padding-left: 15px;
-  transition: .1s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 
@@ -507,8 +501,7 @@ input[type='range']::webkit-slider-thumb:hover {
 
 .link-wrapper {
   padding-bottom: 10px;
-
-  transition: .1s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .u-blue {
@@ -518,12 +511,12 @@ input[type='range']::webkit-slider-thumb:hover {
 /* ISSUE */
 
 .issue {
-  margin-top: 40px;
   padding-top: 80px;
   padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
 /* FOOTER */
