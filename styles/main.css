@@ -30,6 +30,7 @@ a {
 body {
   opacity: 1;
   transition: 0.7s opacity;
+  /* overflow-x: hidden; */
 }
 
 ::selection {
@@ -372,6 +373,7 @@ input[type='range']::webkit-slider-thumb:hover {
   flex-direction: column;
   align-items: center;
   z-index: 10;
+  overflow-x: hidden;
 }
 
 .head {
