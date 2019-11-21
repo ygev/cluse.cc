@@ -37,17 +37,18 @@
 }
 
 .btn-git {
-    background: url("/img/github.png") center no-repeat;
-    border: 0;
-    width: 55px;
-    height: 55px;
-    background-color: white;
-    box-shadow: 0 4px 8px -1px var(--shadow);
-    transition: .2s ease-in-out;
-    border-radius: 27.5px;
-    margin-left: 20px;
-   }
-  
+  background: url(../img/github.svg) center no-repeat;
+  border: 0;
+  width: 55px;
+  height: 55px;
+  background-color: #fff;
+  background-size: 32px 32px;
+  box-shadow: 0 4px 8px -1px var(--shadow);
+  transition: .2s ease-in-out;
+  border-radius: 27.5px;
+  margin-left: 20px;
+ }
+
 .btn-git:focus {
     outline: none;
     box-shadow: 0 4px 8px -1px var(--shadow);
