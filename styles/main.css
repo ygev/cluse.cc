@@ -467,16 +467,29 @@ input[type='range']::webkit-slider-thumb:hover {
   font-size: 16px;
   color: #262626;
   letter-spacing: 0;
+  transition: .1s ease-in-out;
+}
+
+.link-wrapper {
+  border-bottom: 3px #0A7FFF solid;
 }
 
 
 .link-arrow {
   transition: .1s ease-in-out;
+  font-weight: 900;
 }
 
 .link:hover {
   transition: .1s ease-in-out;
-  border-bottom: 4px #0A7FFF solid;
+  width: 100%; 
+  left: 0; 
+}
+
+.link:after {
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  
 }
 
 .link:hover .link-arrow {
@@ -494,6 +507,8 @@ input[type='range']::webkit-slider-thumb:hover {
 
 .link-wrapper {
   padding-bottom: 10px;
+
+  transition: .1s ease-in-out;
 }
 
 .u-blue {
