@@ -347,3 +347,11 @@
      font-size: 13px;
     }
   }
+
+/* Smallest Screens */
+@media (max-width: 380px) {
+  .button ul {
+    font-size: 11px;
+    padding: 16px 20px;
+   }
+}
