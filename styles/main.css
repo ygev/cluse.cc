@@ -373,6 +373,7 @@ input[type='range']::webkit-slider-thumb:hover {
   flex-direction: column;
   align-items: center;
   z-index: 10;
+  padding-bottom: 60px;
   overflow-x: hidden;
 }
 
@@ -603,6 +604,7 @@ footer {
   .desktop {
     display: none;
   }
+  
  }
 
 
@@ -650,7 +652,7 @@ footer {
 
   .feature-duo {
   flex-direction: row;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .img-right {
@@ -698,6 +700,10 @@ footer {
     font-size: 24px;
   }
 
+  .img-feature {
+    max-width: 500px;
+  }
+
 .mission {
   flex-direction: row;
   justify-content: center;
@@ -714,6 +720,7 @@ footer {
 
 .img-mission {
   margin-left: 40px;
+  max-width: 20vw;
 }
 
 footer {
