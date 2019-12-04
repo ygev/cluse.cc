@@ -524,50 +524,35 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
-}
-
-.ygis-copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 40px;
-  margin-top: 50px;
-}
- 
-.logo-ygis {
-  margin-bottom: 10px;
 }
 
 .footer-copyright {
-  opacity: 0.75;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0;
   text-align: center;
-  margin-top: 10px;
 }
 
 .footer-link {
   opacity: 0.9;
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0;
   text-align: center;
   line-height: 32px;
   text-decoration: none;
-  /* transition: 1s ease-in-out; */
-  padding-bottom: 5px;
+  padding-bottom:10px;
+  border-bottom: 0 #0A7FFF solid;
+  transition: 0.1s ease-in-out;
 }
 
 .footer-link:hover {
   border-bottom: 2px #0A7FFF solid;
-  /* transition: 1s ease-in-out; */
+  transition: 0.1s ease-in-out;
 }
 
 .createdby-desktop {
