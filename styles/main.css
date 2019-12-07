@@ -175,7 +175,7 @@ body {
 .leadline {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -375,6 +375,7 @@ input[type='range']::webkit-slider-thumb:hover {
   z-index: 10;
   padding-bottom: 60px;
   overflow-x: hidden;
+  background-color: #FEFCFE;
 }
 
 .head {
@@ -493,6 +494,10 @@ input[type='range']::webkit-slider-thumb:hover {
 
 .u-blue {
   color: #0A7FFF;
+}
+
+.img-mission {
+  height: 300px;
 }
 
 /* ISSUE */
@@ -630,8 +635,8 @@ footer {
   margin-bottom:20px;
 }
 .leadline {
-  font-size: 21px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 32px;
   max-width: 660px;
 }
 
@@ -655,7 +660,7 @@ footer {
   font-size: 24px;
   color: #6B6B6B;
   letter-spacing: 0;
-  line-height: 32px;
+  line-height: 33px;
   align-self: center;  
   max-width: 800px;
 }
@@ -686,7 +691,7 @@ footer {
   }
 
   .img-feature {
-    max-width: 500px;
+    max-width: 600px;
   }
 
 .mission {
@@ -706,6 +711,7 @@ footer {
 .img-mission {
   margin-left: 40px;
   max-width: 20vw;
+  height: 30vh;
 }
 
 footer {
@@ -748,8 +754,8 @@ display: none;
     line-height: 75px;
   }
   .leadline {
-    font-size: 21px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 33px;
     max-width: 500px;
   }
 
