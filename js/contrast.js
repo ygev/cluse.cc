@@ -101,7 +101,7 @@ function checkContrast() {
         $('#WCAG').text('AA');
         $('#imgPass').attr("src","img/check.svg")
 	} else {
-        $('#WCAG').text(':(');
+        $('#WCAG').text('A');
         $('#imgPass').attr("src","img/xmark.svg")
     }
 	if (ratio >= 7) {
