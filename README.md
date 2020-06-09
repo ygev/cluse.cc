@@ -1,4 +1,4 @@
-<h1 align="center" >Cluse · <a href="https://cluse.cc">🔗 cluse.cc</a></h1>
+<h1 align="center" >Cluse · 🔗 <a href="https://cluse.cc">cluse.cc</a></h1>
 <p align='center'>
     <a href="https://github.com/ygev/cluse/releases/download/v1.1.0/Cluse.sketchplugin.zip">
         <img src="https://i.imgur.com/Owg0Zca.png" width="260" alt="Download Sketch Cluse">
